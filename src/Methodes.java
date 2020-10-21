@@ -4,6 +4,7 @@ public class Methodes {
     public static void main(String[] args) {
         helloWorld();
         groet();
+        System.out.println();
 
         Scanner s = new Scanner(System.in);
         System.out.println("Wat is je naam? ");
