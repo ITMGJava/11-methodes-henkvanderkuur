@@ -18,14 +18,18 @@ public class Methodes {
     }
 
     static void groet() {
-            System.out.println("Hallo, User");
+        System.out.println("Hallo, User");
     }
 
-    static void groet(String naam){
+    //   static void groet(String naam){
+    //       System.out.println("Dank je wel " +naam);
+
+
+    static String groet(String naam) {
         System.out.println("Dank je wel " +naam);
-
-
     }
 
 }
+
+
 
